@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+<h1>Flexton is an ultra-minimalist and responsive theme for Jekyll</h1>
 
-You can use the [editor on GitHub](https://github.com/pawpaw-love/pawpaw-love.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<p>Flexton created especially for those who appreciate minimalism and functionality.</p>
+<p>Amazing flexibility with pleasant colors and custom design makes Flexton a simple theme, suitable for almost any blog.</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h2>Demo</h2>
 
-### Markdown
+Check the theme in action [Demo](https://flexton.netlify.com/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Page preview](https://github.com/artemsheludko/flexton/blob/master/images/preview.png?raw=true)
 
-```markdown
-Syntax highlighted code block
+<h2>Features</h2>
 
-# Header 1
-## Header 2
-### Header 3
+<ul>
+	<li>100% responsive and clean theme</li>
+ 	<li>Optimized for mobile devices</li>
+	<li>Valid HTML5 code</li>
+	<li>Included site search</li>
+	<li>Contact Page</li>
+	<li>Post sharing</li>
+	<li>Supports Mail Chimp Subscriber</li>
+	<li>Supports Disqus Comments</li>
+	<li>Social Media Profiles</li>
+	<li>Contact Form - FormsPree</li>
+	<li>Evil Icons</li>
+	<li>Google Fonts</li>
+</ul>
 
-- Bulleted
-- List
+<h2>Credits</h2>
 
-1. Numbered
-2. List
+<p>I have used the following scripts, fonts or other files as listed.</p>
 
-**Bold** and _Italic_ and `Code` text
+<ul>
+  <li><a href="https://fonts.google.com/">Google Fonts</a> (Volkhov, Open Sans).</li>
+  <li><a href="http://evil-icons.io/">Evil Icons</a></li>
+  <li><a href="http://fitvidsjs.com/">FitVids.js</a></li>
+  <li><a href="https://jquery.com/">jQuery.com</a></li>
+  <li><a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a></li>
+  <li>Preview Images form <a href="https://unsplash.com/">unsplash.com</a>, <a href="https://www.pexels.com/">pexels.com</a></li>
+</ul>
 
-[Link](url) and ![Image](src)
-```
+<h2>Deployment</h2>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec serve` to start the Jekyll server.
 
-### Jekyll Themes
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pawpaw-love/pawpaw-love.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<h2>Buy me a coffee</h2>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
+<p>Either way, your support is a way to thank me ❤️</p>
+<p align="center"><b>Thank you for your support!</b></p>
