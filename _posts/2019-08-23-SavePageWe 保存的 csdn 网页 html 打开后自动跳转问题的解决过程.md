@@ -2,7 +2,7 @@
 layout: post
 title: "SavePageWe 保存的 csdn 网页 html 打开后自动跳转问题的解决过程"  
 date: 2019-08-23 08:12:36 +0800
-image: 
+image: savepagewe.jpg
 tags: [csdn, savepagewe]
 categories: chrome
 ---

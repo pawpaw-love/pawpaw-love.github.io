@@ -1,7 +1,7 @@
 title: pawpaw_love's blog
 description: pawpaw_love's blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://pawpaw-love.github.io/balcony/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pawpaw-love.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
 author-name:    pawpaw_love

@@ -2,7 +2,7 @@
 layout: post
 title: Golang GUI库「andlabs/ui」在 windows10 下编译环境配置笔记
 date: 2020-03-12 11:11:23 +0800
-image: https://upload-images.jianshu.io/upload_images/624929-4e86f2e08dc64193.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp
+image: golang.jpg
 tags: [golang, gui, envirement]
 categories: golang
 ---
