@@ -13,27 +13,27 @@ categories: linux
 ```
 # youdao translate
 t(){
-	words=""
-		for word in $@;  # $@ 为传入的参数
-	do
-		# 判断是否存在以传入参数为名的文件，若存在，则进行文本翻译
-		if [ -e $word ];then
-			# 读取文件内容并整合为一行
-			cat $word|while read line;
-			do
-				# 将需要翻译的源文本写入 word.out 文件
-				echo $line >>$word.out;
-				# 将源文本中的`空格`替换为`%20`，以防止请求地址被分割成多个参数
-				line=`echo $line|sed 's/[ ]/%20/g'`;
-				# -s 参数为静默模式
-				curl -s http://fanyi.youdao.com/openapi.do?keyfrom=minede\&key=1074042860\&type=data\&doctype=json\&version=1.2\&translate=on\&q=$line|sed 's/{\"translation\":\[\"\(.*\)\"\],\"\(b\|q\).*/\1\n/g' >>$word.out
-			done;
-		else
-			# 若传入参数不是文件名，则作为单词进行查词。`jq`为json解析工具，需要单独安装
-			curl -s http://fanyi.youdao.com/openapi.do?keyfrom=minede\&key=1074042860\&type=data\&doctype=json\&version=1.2\&q=$word|jq '.';
-		fi
-	done
-	return ;
+    words=""
+        for word in $@;  # $@ 为传入的参数
+    do
+        # 判断是否存在以传入参数为名的文件，若存在，则进行文本翻译
+        if [ -e $word ];then
+            # 读取文件内容并整合为一行
+            cat $word|while read line;
+            do
+                # 将需要翻译的源文本写入 word.out 文件
+                echo $line >>$word.out;
+                # 将源文本中的`空格`替换为`%20`，以防止请求地址被分割成多个参数
+                line=`echo $line|sed 's/[ ]/%20/g'`;
+                # -s 参数为静默模式
+                curl -s http://fanyi.youdao.com/openapi.do?keyfrom=minede\&key=1074042860\&type=data\&doctype=json\&version=1.2\&translate=on\&q=$line|sed 's/{\"translation\":\[\"\(.*\)\"\],\"\(b\|q\).*/\1\n/g' >>$word.out
+            done;
+        else
+            # 若传入参数不是文件名，则作为单词进行查词。`jq`为json解析工具，需要单独安装
+            curl -s http://fanyi.youdao.com/openapi.do?keyfrom=minede\&key=1074042860\&type=data\&doctype=json\&version=1.2\&q=$word|jq '.';
+        fi
+    done
+    return ;
 }
 ```
 
