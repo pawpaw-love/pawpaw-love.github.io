@@ -1,7 +1,7 @@
 pawpaw-love: # author-id
   name: "pawpaw_love"
-  avatar: "nowits.me/assets/img/head.png"
-  url: "nowits.me"
+  avatar: "https://nowits.me/assets/img/head.png"
+  url: "https://nowits.me"
 unknown:
   name: Unknown
   avatar:
