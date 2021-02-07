@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Golang GUI库「andlabs/ui」在 windows10 下编译环境配置笔记
-date: 2020-03-12 11:11:23 +0800
-image: golang.jpg
+feature-img: assets/img/feature-img/golang.jpg
+thumbnail: assets/img/feature-img/golang.jpg
+author: pawpaw-love
 tags: [golang, gui, envirement]
-categories: golang
 ---
 ## andlabs/ui 在 win10 的编译环境配置笔记
 

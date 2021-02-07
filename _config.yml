@@ -1,54 +1,46 @@
-title: pawpaw_love's blog
-description: pawpaw_love's blog
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://pawpaw-love.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://pawpaw-love.github.io"
 
-# Author
-author-name:    pawpaw_love
-author-image:   head.png
-author-job:     A Struggler
-author-email:   pawpaw_love@qq.com # Add your email for contant form.
-author-twitter:   crazybalcony # Add your twitter account
-about-author:   Rookie bloger
+# THEME-SPECIFIC CONFIGURATION
+title: pawpaw_love's balcony                                    # site's title
+description: "pawpaw_love's blog"      # used by search engines
+avatar: assets/img/head.png                         # Empty for no avatar in navbar
+favicon: assets/p.ico                             # Icon displayed in the tab
 
-# Social settings
-social-twitter:   crazybalcony
-social-facebook:
-social-github:    pawpaw-love
-weibo_username:  pawpaw_love
-social-pinterest:
-social-instagram:
-social-youtube:
-social-vk:   
-social-linkedin:
+# Header and footer text
+header_text: 她说<code>「自分の运命より その時に逃げ出すことのほうが怖いと 彼は言った    その強さに心からの尊敬と憧れを」</code>, 我憧憬她发现并憧憬美好的阳光心态  # Change Blog header text
+header_feature_image: assets/img/pexels/flower-vase.jpg
+footer_text: >
+  connect me
 
-# Newsletter
-mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+# Blog
+excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+post_navigation: true
+color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
-# Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1
+# Features
+# More in the _data folder for social icons, share buttons, author and language
+# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
+katex: true                                             # Enable if using math markup
+mermaid: true                                           # Enable mermaid-js for sequence and diagrams
+google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
+cookie_consent: false                                   # To respect the usage of cookies
+disqus_shortname:                                       # Your discus shortname for comments
 
-# Comment Section (Disqus)
-disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+# PAGINATION
+paginate: 5
+paginate_path: "/blog/page:num"
 
-# Build settings
-markdown: kramdown
-permalink: /:year/:month/:day/:title/
-plugins:
-  - jekyll-paginate
+# PORTFOLIO
+collections:
+  portfolio:
+    output: false
+    permalink: /:collection/:name
 
-paginate: 7
-paginate_path: "/page/:num/"
+# BUILD SETTINGS
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules"]
 
-include:
-  - _pages
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Exclude from processing.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github

@@ -1,0 +1,42 @@
+# Icons on the footer
+rss: false
+email_address: pawpaw_love@qq.com   # Full email address, e.g. "sam@example.com"
+behance:
+bitbucket:
+dribbble:
+facebook:
+flickr:
+gitlab:
+github:  # "pawpaw-love"
+instagram:
+keybase:
+linkedin:         # Full URL
+pinterest:
+reddit:
+soundcloud:
+stack_overflow:
+stack_exchange:   # Full URL
+steam:
+tumblr:
+twitter: crazybalcony         # "twitter username"
+vimeo:
+wordpress:
+youtube:          # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
+bilibili_id: 578040
+weibo: cb42 
+
+# rss specify feed path
+feed:
+  path: feed.xml
+
+# Share button options
+share:
+  facebook: true
+  twitter: true
+  tumblr:
+  pinterest:
+  pocket:
+  reddit: true
+  linkedin:
+  wordpress:
+  email: true
