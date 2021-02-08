@@ -4,7 +4,6 @@ title: "jekyll 开启 Disqus 测试"
 date: 2021-02-08 11:21:40 +0800
 author: pawpaw-love
 color: gray
-comments: true
 tags: [test, disqus]
 ---  
 
@@ -16,9 +15,12 @@ Disqus 毕竟不是国内平台，不知道需不需要科学上网姿势才能�
 
 更新：
 
-默认全站开启，不像开启的要手动设置  
+一旦开启，默认全站显示
 
 果然水土不服，无法完成加载，再慢慢调吧...  
 
 畅言 的显示正常，但管理员账号登录一直提示密码错误，qq授权登录正常，其他的再慢慢发现吧...  
 
+更新：  
+
+disqus 一直显示 “Disqus seems to be taking longer than usual. Reload?” ，问题应该不在梯子上，后续再看看，实在不行就不用了  
