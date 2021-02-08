@@ -5,6 +5,7 @@ date: 2021-02-07 07:59:22 +0800
 feature-img: assets/img/feature-img/runningman.jpg
 thumbnail: assets/img/feature-img/runningman.jpg
 author: pawpaw-love
+comments: false
 tags: [runningman]
 ---
 
