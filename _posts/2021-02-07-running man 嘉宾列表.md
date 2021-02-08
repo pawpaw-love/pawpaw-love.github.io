@@ -569,4 +569,6 @@ window.changyan.api.config({
 appid: 'cyviu4FC3',
 conf: 'prod_a7c0c87f5799c904e11f74c740e534a6'
 });
-</script>
+</script>  
+
+<center>您也可以使用 Disqus </center>  
