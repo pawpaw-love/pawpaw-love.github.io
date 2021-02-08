@@ -5,7 +5,6 @@ date: 2021-02-07 07:59:22 +0800
 feature-img: assets/img/feature-img/runningman.jpg
 thumbnail: assets/img/feature-img/runningman.jpg
 author: pawpaw-love
-comments: false
 tags: [runningman]
 ---
 
@@ -569,6 +568,4 @@ window.changyan.api.config({
 appid: 'cyviu4FC3',
 conf: 'prod_a7c0c87f5799c904e11f74c740e534a6'
 });
-</script>  
-
-<center>您也可以使用 Disqus </center>  
+</script>
