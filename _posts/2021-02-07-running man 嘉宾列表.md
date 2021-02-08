@@ -553,3 +553,19 @@ E528.201108.济州岛特辑（二）一条龙旅行（无嘉宾）
 E529.201115.首尔老字号美食记录竞赛（上）（嘉宾：金南珠、尹普美、金珉奎、HOSHI、金秀勇、南昶熙）  
 E530.201122.首尔老字号美食记录竞赛（下）（嘉宾：同上一期）+收集赞美，顶楼竞赛（上）（嘉宾：河道权、柳真、李智雅、金素妍）  
 E531.201129.收集赞美，顶楼竞赛（下）（嘉宾：河道权、柳真、李智雅、金素妍）  
+
+---------------  
+
+以下为开启评论区测试
+
+---------------  
+
+<!--PC版-->
+<div id="SOHUCS" ></div>
+<script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+window.changyan.api.config({
+appid: 'cyviu4FC3',
+conf: 'prod_a7c0c87f5799c904e11f74c740e534a6'
+});
+</script>
