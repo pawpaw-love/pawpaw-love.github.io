@@ -4,7 +4,7 @@ title: "通过调用 youdao api 实现 linux 终端命令查词"
 feature-img: assets/img/feature-img/dict.jpg
 thumbnail: assets/img/feature-img/dict.jpg
 author: pawpaw-love
-tags: [dict, youdao, linux, terminal]
+tags: [dict, youdao, linux, shell]
 ---
 
 ##	 0x01 向 `.bashrc` 文件添加功能所需的脚本代码  

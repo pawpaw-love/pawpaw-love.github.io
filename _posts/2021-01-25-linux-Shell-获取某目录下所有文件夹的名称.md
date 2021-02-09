@@ -3,7 +3,7 @@ layout: post
 title: "linux Shell 获取某目录下所有文件/文件夹的名称"
 date: 2021-01-25 07:57:22 +0800
 author: pawpaw-love
-tags: [shell，linux]
+tags: [shell, linux]
 ---
 
 查看目录下面的所有文件：  
