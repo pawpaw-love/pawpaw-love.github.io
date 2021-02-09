@@ -36,6 +36,10 @@ layout: default
 {% if site.disqus_shortname or site.theme_settings.disqus_shortname %}
 {% include disqus.html %}{% endif %}
 
+<!--畅言 PC 版-->
+{% if site.changyan or site.theme_setting.changyan %}
+{% include changyan.html %}{% endif %}
+
 <!-- Post navigation -->
 {% if site.post_navigation  or site.theme_settings.post_navigation %}
   {% include post_nav.html %}

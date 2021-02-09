@@ -559,13 +559,3 @@ E531.201129.收集赞美，顶楼竞赛（下）（嘉宾：河道权、柳真�
 以下为开启评论区测试
 
 ---------------  
-
-<!--PC版-->
-<div id="SOHUCS" ></div>
-<script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-window.changyan.api.config({
-appid: 'cyviu4FC3',
-conf: 'prod_a7c0c87f5799c904e11f74c740e534a6'
-});
-</script>
