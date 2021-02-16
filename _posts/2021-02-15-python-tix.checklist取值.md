@@ -2,8 +2,7 @@
 layout: post
 title: python tix.checklist 添加条目以及获取条目内容
 date: 2021-02-25 17:57:22 +0800
-feature-img: assets/img/feature-img/.jpg
-thumbnail: assets/img/feature-img/.jpg
+color: blue
 author: pawpaw-love
 tags: [python, gui]
 ---  
