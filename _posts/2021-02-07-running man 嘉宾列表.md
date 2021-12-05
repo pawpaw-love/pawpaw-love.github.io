@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "running man 全标题 全嘉宾列表 (完整E1-E531)"
+title: "running man 全标题 全嘉宾列表 (完整E1-E581)"
 date: 2021-02-07 07:59:22 +0800
 feature-img: assets/img/feature-img/runningman.jpg
 thumbnail: assets/img/feature-img/runningman.jpg
