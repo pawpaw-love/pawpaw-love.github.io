@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tag
 title: python AES加解密txt文档
 date: 2023-04-06 16:31:22 +0800
 color: blue
