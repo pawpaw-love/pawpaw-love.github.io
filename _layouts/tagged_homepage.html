@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% assign tagged_articles = site.my_tagged_articles | where_exp: "item", "item.tags contains 'public'" %}
+{% for article in tagged_articles %}
+  <article>
+    <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+    {{ article.excerpt }}
+  </article>
+{% endfor %}
