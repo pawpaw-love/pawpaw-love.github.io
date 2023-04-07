@@ -34,15 +34,10 @@ paginate: 5
 paginate_path: "/blog/page:num"
 
 # PORTFOLIO
-#collections:
-#  portfolio:
-#    output: false
-#    permalink: /:collection/:name
 collections:
-  my_tagged_articles:
-    output: true
-    permalink: /tagged/:name/
-
+  portfolio:
+    output: false
+    permalink: /:collection/:name
 
 # BUILD SETTINGS
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
