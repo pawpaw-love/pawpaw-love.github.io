@@ -2,9 +2,3 @@
 layout: home
 ---
 
-{% for post in site.posts %}
-  {% if post.layout == "post" and post.tags != "recipes" %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
-  {% endif %}
-{% endfor %}
