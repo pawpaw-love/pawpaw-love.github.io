@@ -9,7 +9,7 @@ avatar: assets/img/head.png                         # Empty for no avatar in nav
 favicon: assets/p.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: 她说<code>「自分の运命より その時に逃げ出すことのほうが怖いと 彼は言った    その強さに心からの尊敬と憧れを」</code>, 我憧憬她发现并憧憬美好的阳光心态  # Change Blog header text
+header_text: 她说<code>「自分の运命より その時に逃げ出すことのほうが怖いと 彼は言った    その強さに心からの尊敬と憧れを」</code>, 我憧憬她那发现并憧憬美好的阳光心态  # Change Blog header text
 header_feature_image: assets/img/pexels/flower-vase.jpg
 footer_text: >
   connect me
