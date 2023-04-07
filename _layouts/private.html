@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>Articles with the "{{ page.tag }}" tag</h1>
+{% for article in site.articles %}
+  {% if article.tags contains page.tag %}
+    <article>
+      <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+      {{ article.excerpt }}
+    </article>
+  {% endif %}
+{% endfor %}
