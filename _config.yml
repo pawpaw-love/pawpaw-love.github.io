@@ -38,10 +38,7 @@ paginate_path: "/blog/page:num"
 #  portfolio:
 #    output: false
 #    permalink: /:collection/:name
-collections:
-  recipes:
-    output: true
-    permalink: /recipes/:title/
+
 
 
 # BUILD SETTINGS
