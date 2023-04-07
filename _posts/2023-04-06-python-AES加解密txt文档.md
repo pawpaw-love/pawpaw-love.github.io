@@ -1,10 +1,10 @@
 ---
-layout: tag
+layout: private
 title: python AES加解密txt文档
 date: 2023-04-06 16:31:22 +0800
 color: blue
 author: pawpaw-love
-tags: [python, gui, encrypt]
+tags: [private, python, gui, encrypt]
 ---  
 
 ```python
